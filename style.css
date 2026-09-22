@@ -28,3 +28,9 @@
 .sett-btn:hover {
   background-color: #2563eb;
 }
+
+.start-btn:active,
+.sett-btn:hover {
+  background-color: #0a3dab;
+  transform: scale(0.98);
+  transform: translateY(0.98);
