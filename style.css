@@ -30,7 +30,7 @@
 }
 
 .start-btn:active,
-.sett-btn:hover {
+.sett-btn:active {
   background-color: #0a3dab;
   transform: scale(0.98);
   transform: translateY(0.98);
