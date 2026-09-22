@@ -6,10 +6,8 @@
   line-height: 1.6;
   letter-spacing: 0.5px;
 }
-
 /* Shared styles for both buttons */
-.start-btn,
-.sett-btn {
+.start-btn, .sett-btn {
   background-color: #3b82f6;
   color: #ffffff;
   display: inline-flex;
@@ -23,14 +21,9 @@
   transition: all 0.2s ease;
   cursor: pointer;
 }
-
-.start-btn:hover,
-.sett-btn:hover {
+.start-btn:hover, .sett-btn:hover {
   background-color: #2563eb;
 }
-
-.start-btn:active,
-.sett-btn:active {
+.start-btn:active, .sett-btn:active {
   background-color: #0a3dab;
-  transform: scale(0.98);
-  transform: translateY(0.98);
+  transform: translateY(3px);
