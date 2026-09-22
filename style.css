@@ -1,14 +1,15 @@
 .title {
   font-family: 'Helvetica', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
   line-height: 1.6;
   letter-spacing: 0.5px;
-  text-indent: 20px;
 }
 
-.settbut {
+/* Shared styles for both buttons */
+.start-btn,
+.sett-btn {
   background-color: #3b82f6;
   color: #ffffff;
   display: inline-flex;
@@ -17,10 +18,13 @@
   padding: 0.75rem 1.5rem;
   font-weight: 600;
   font-size: 1rem;
+  border: none;
   border-radius: 6px;
   transition: all 0.2s ease;
   cursor: pointer;
 }
-.settbut:hover {
+
+.start-btn:hover,
+.sett-btn:hover {
   background-color: #2563eb;
 }
